@@ -1,0 +1,120 @@
+{
+  "skills": [
+    { "name": "JavaScript", "level": 92, "icon": "fab fa-js", "color": "#f7df1e" },
+    { "name": "React.js", "level": 88, "icon": "fab fa-react", "color": "#61dafb" },
+    { "name": "Node.js", "level": 82, "icon": "fab fa-node-js", "color": "#68a063" },
+    { "name": "Python", "level": 78, "icon": "fab fa-python", "color": "#3776ab" },
+    { "name": "HTML5", "level": 95, "icon": "fab fa-html5", "color": "#e34f26" },
+    { "name": "CSS3", "level": 90, "icon": "fab fa-css3-alt", "color": "#1572b6" },
+    { "name": "TypeScript", "level": 80, "icon": "fas fa-code", "color": "#007acc" },
+    { "name": "Git", "level": 85, "icon": "fab fa-git-alt", "color": "#f05032" },
+    { "name": "Docker", "level": 70, "icon": "fab fa-docker", "color": "#2496ed" },
+    { "name": "AWS", "level": 68, "icon": "fab fa-aws", "color": "#ff9900" },
+    { "name": "GraphQL", "level": 75, "icon": "fas fa-project-diagram", "color": "#e10098" },
+    { "name": "MongoDB", "level": 77, "icon": "fas fa-database", "color": "#47a248" }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "NexusChat",
+      "description": "A real-time messaging platform with WebSocket support, E2E encryption, and multi-room chat functionality built with React and Node.js.",
+      "image": "https://images.unsplash.com/photo-1611746872915-64382b5c76da?w=600&q=80",
+      "tags": ["React", "Node.js", "Socket.io", "MongoDB"],
+      "github": "#",
+      "demo": "#",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "AuraShop",
+      "description": "Full-stack e-commerce platform with Stripe integration, inventory management, and a dynamic product recommendation engine.",
+      "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=80",
+      "tags": ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
+      "github": "#",
+      "demo": "#",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "PortfolioCMS",
+      "description": "A headless CMS with drag-and-drop page builder, SEO tools, and automated deployment pipeline to Netlify and Vercel.",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80",
+      "tags": ["Vue.js", "GraphQL", "AWS S3", "Lambda"],
+      "github": "#",
+      "demo": "#",
+      "featured": false
+    },
+    {
+      "id": 4,
+      "title": "AIVision",
+      "description": "Computer vision web app using TensorFlow.js for object detection and image classification directly in the browser.",
+      "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80",
+      "tags": ["TensorFlow.js", "Python", "Flask", "React"],
+      "github": "#",
+      "demo": "#",
+      "featured": false
+    },
+    {
+      "id": 5,
+      "title": "DevMetrics",
+      "description": "A developer analytics dashboard integrating GitHub, Jira, and CI/CD pipelines to visualize team productivity metrics.",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80",
+      "tags": ["React", "D3.js", "Node.js", "Redis"],
+      "github": "#",
+      "demo": "#",
+      "featured": false
+    },
+    {
+      "id": 6,
+      "title": "CloudSync",
+      "description": "Cross-platform file synchronization tool with end-to-end encryption, conflict resolution, and offline-first architecture.",
+      "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&q=80",
+      "tags": ["Electron", "TypeScript", "AWS", "SQLite"],
+      "github": "#",
+      "demo": "#",
+      "featured": false
+    }
+  ],
+  "experience": [
+    {
+      "company": "TechNova Inc.",
+      "role": "Senior Frontend Developer",
+      "duration": "Jan 2023 – Present",
+      "location": "San Francisco, CA (Remote)",
+      "description": "Led frontend architecture for a SaaS platform serving 200K+ users. Reduced bundle size by 40% and improved Core Web Vitals scores to 95+.",
+      "tech": ["React", "TypeScript", "GraphQL", "AWS"]
+    },
+    {
+      "company": "Pixel Labs",
+      "role": "Full Stack Developer",
+      "duration": "Jun 2021 – Dec 2022",
+      "location": "New York, NY",
+      "description": "Built and maintained 12+ client projects from ideation to deployment. Introduced CI/CD pipeline reducing deployment time by 60%.",
+      "tech": ["Vue.js", "Node.js", "PostgreSQL", "Docker"]
+    },
+    {
+      "company": "DevCraft Studio",
+      "role": "Junior Developer",
+      "duration": "Jan 2020 – May 2021",
+      "location": "Austin, TX",
+      "description": "Developed responsive web applications and contributed to an internal component library used across 8 product teams.",
+      "tech": ["React", "SCSS", "REST APIs", "Git"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Stanford University",
+      "degree": "M.S. Computer Science",
+      "duration": "2018 – 2020",
+      "gpa": "3.9 / 4.0",
+      "description": "Specialization in Human-Computer Interaction and Distributed Systems. Published research on Progressive Web App performance optimization."
+    },
+    {
+      "institution": "UC Berkeley",
+      "degree": "B.S. Computer Science",
+      "duration": "2014 – 2018",
+      "gpa": "3.7 / 4.0",
+      "description": "Dean's List all semesters. Led the Web Development Club and organized the annual hackathon with 500+ participants."
+    }
+  ]
+}
